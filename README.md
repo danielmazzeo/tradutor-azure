@@ -56,4 +56,4 @@ Siga os passos abaixo para executar o projeto em sua máquina local.
 
 ### 👨‍💻 Autor
 
-Feito com ❤️ por [Seu Nome](https://github.com/SEU_USUARIO).
+Feito por Daniel Mazzeo(https://github.com/SEU_USUARIO).
