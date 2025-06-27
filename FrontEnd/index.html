@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradutor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="titulo">Tradutor Simples com API da Azure</h1>
+
+    <hr>
+
+    <section id="entrada-traducao">
+        <h3>Texto Original</h3>
+        <textarea id="text-to-translate" cols="50" rows="8" placeholder="Digite algo aqui..."></textarea>
+    </section>
+
+    <section id="selecao-idiomas">
+        <label for="from-language">Traduzir de:</label>
+        <select id="from-language">
+            <option value="">Detectar Idioma Automaticamente</option>
+            <option value="en">Inglês</option>
+            <option value="pt">Português</option>
+            <option value="es">Espanhol</option>
+            <option value="fr">Francês</option>
+        </select>
+
+        <label for="to-language">Traduzir para:</label>
+        <select id="to-language">
+            <option value="pt">Português</option>
+            <option value="en">Inglês</option>
+            <option value="es">Espanhol</option>
+            <option value="fr">Francês</option>
+        </select>
+    </section>
+
+    <section id="botao-traduzir">
+        <button id="translate-btn">Traduzir Agora</button>
+    </section>
+
+    <section id="saida-traducao">
+        <h3>Texto Traduzido</h3>
+        <textarea id="translated-text" cols="50" rows="8" readonly placeholder="A tradução aparecerá aqui..."></textarea>
+    </section>
+
+    <p id="status-message"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
